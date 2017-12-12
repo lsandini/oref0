@@ -21,7 +21,7 @@ def index():
         data['meal'] = json.load(open(os.path.join(myopenaps_dir, "monitor/meal.json")))
 
         data['suggested'] = json.load(open(os.path.join(myopenaps_dir, "enact/suggested.json")))
-        data['smb_suggested'] = json.load(open(os.path.join(myopenaps_dir, "enact/smb-suggested.json")))
+        # data['smb_suggested'] = json.load(open(os.path.join(myopenaps_dir, "enact/smb-suggested.json")))
 
         data['enacted'] = json.load(open(os.path.join(myopenaps_dir, "enact/enacted.json")))
         data['smb_enacted'] = json.load(open(os.path.join(myopenaps_dir, "enact/smb-enacted.json")))
